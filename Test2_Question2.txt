@@ -1,0 +1,9 @@
+What is the value of a[5] in the array declared below:
+
+var a = [2, 4, 6, 'Joe', 10, [1, 2], {lastName: 'Smith'}];
+
+
+
+The value of a[5] = [1,2]
+arrays begin at 0 there for a[] has to go through a[0]= 2, a[1]= 4, a[2]= 6,
+  a[3]='Joe, a[4]=10, and finally a[5]=[1,2]

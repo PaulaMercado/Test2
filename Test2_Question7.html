@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>
+    Given:<br><br>
+
+    var myQuote="He who laughs, lasts.";<br><br>
+
+    Give the value of each of the following expressions:
+<ul>
+    <li> a. myQuote.toUpperCase()</li>              a. HE WHO LAUGHS, LASTS.
+    <li>b. myQuote.indexOf("a")</li>                b. 8
+    <li>c. myQuote.indexOf("@", 1)</li>             c. -1
+    <li>d. myQuote.indexOf("who")</li>              d. 3
+    <li>e. myQuote.indexOf("a", 10)</li>            e. 16
+    <li>f. myQuote.lastIndexOf("a")</li>            f. 16
+    <li>g. myQuote.lastIndexOf("a", 7)</li>         g. -1
+    <li>h. myQuote.lastIndexOf("a", 10)</li>        h. 8
+    <li>i. myQuote.charAt(7)</li>                   i. l
+    <li>j. myQuote.charAt(myQuote.length)</li>      j. returns nothing it's undefined. I used .value to find out.
+    <li>k. myQuote.charAt(myQuote.length - 3)</li>  k. t
+</ul>
+</p>
+
+<script>
+ var myQuote= "He who laughs, lasts.";
+
+    document.write("a. " + myQuote.toUpperCase() + "<br>");
+    document.write("b. " + myQuote.indexOf("a") + "<br>");
+    document.write("c. " + myQuote.indexOf("@", 1) + "<br>");
+    document.write("d. " + myQuote.indexOf("who") + "<br>");
+    document.write("e. " + myQuote.indexOf("a", 10) + "<br>");
+    document.write("f. " + myQuote.lastIndexOf("a") + "<br>");
+    document.write("g. " + myQuote.lastIndexOf("a", 7) + "<br>");
+    document.write("h. " + myQuote.lastIndexOf("a", 10) + "<br>");
+    document.write("i. " + myQuote.charAt(7) + "<br>");
+    document.write("j. " + myQuote.charAt(myQuote.length) + "<br>");
+    document.write("k. " + myQuote.charAt(myQuote.length - 3) + "<br>");
+</script>
+</body>
+</html>

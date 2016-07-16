@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>
+    Write a script that prompts the user for a string, then alerts whether or <br>
+    not the input string is a palindrome. A palindrome is a string that is <br>
+    spelled the same both forward and backward, such as "I", "bob", and "racecar".
+</p>
+<script>
+    var input = prompt("Enter a word.");
+    var start = 0;
+    var end = input.length -1;
+    var result = true;
+
+    do {
+        if (input[start] === input[end]){
+            start = start + 1;
+            end = end - 1;
+        } else {
+           result = false
+           break;
+        }}
+     while (start < input.length);
+
+
+    if (result === false){
+        alert("This is not a palindrome.");
+    } else {
+        alert("This is a palindrome!");
+    }
+
+</script>
+</body>
+
+</html>
